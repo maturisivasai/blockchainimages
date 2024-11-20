@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+1.open the visual studio and then click on the file then click on the open folder then upload the downloaded folder from the github.
+2.setup metamask wallet in the browser.
+Here I’m taking google chrome as a example.
+Steps:
+Type chrome web store in the search bar then click on first link then click on extensions search for metamask wallet then click on add to browser then click on confirm.
+Once it added to chrome as a extension then click on it then create an account set the password to the account.
+Then connect the metamask to the local host.
+click on the metamask wallet extension login to it then click on profile picture ontop left corner  in the metamask then click on add network then enter the follow details as
+name:localsiva(give the name of the network as you wish)
+new rpc url : click on add add new rpc url then enter http://localhost:8545 then click on add
+chained:31337
+currency sysmbol:go
+then click on save.
+Then select account in the metamask and then slect the network as local host in the metamask
+3.Then open the terminal  in the visual studio then enter “npm install” command.
+4.after successfully installing then split the terminal and enter “npx hardhat node” command.
+5.After running the above command then right click on the blockchain folder then click on integrated terminal then give the “npx hardhat compile” command to run the solidity files.
+Then enter the “npx hardhat run scripts/deploy.js –network localhost”  command to deploy the scripts in the local hardhat machine.
+After successfully deploying the contracts thencopy the deployed address and paste it in the marketplace.jsx file and env.js file and save the files.
+6.then split the terminal andthen give “npm start” to lanch the  sever in web browser.
+Once it lanched successfully then it asks to connect with the metamask then enter password of metamask to connect.after that go to the visual studio then goto terminal to copy private key of the any of the account and then click on add account in metamask then paste that private key then click on save.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+then you perform the mint,list,buy nft's.
