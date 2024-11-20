@@ -20,4 +20,14 @@ After successfully deploying the contracts thencopy the deployed address and pas
 6.then split the terminal andthen give “npm start” to lanch the  sever in web browser.
 Once it lanched successfully then it asks to connect with the metamask then enter password of metamask to connect.after that go to the visual studio then goto terminal to copy private key of the any of the account and then click on add account in metamask then paste that private key then click on save.
 
-then you perform the mint,list,buy nft's.
+7.now we try to mint the nft by giving the some image url from google then click on the mint nft then metamask prompt will appear for the confirm the transaction then click on confirm.
+8.trying to mint the same nft to check is it allowing to duplicate the nft or not.
+9.You can get the msg in the above image that”error minting nft.please try again” and you can see it the console in the browser by right click on page then click on inspect.
+10.now list that nft for sale by giving the tokenid and setting  desired price then click on sell nft then confirm the transaction.
+after successfully list the nft  for sale from account4 it will display the message ”nft listed for sale”.
+11.buying that listed nft for sale from account3.
+First I changed the account from account4 to account3 in the metamask.
+Then click on buy nft then confirm the transaction.
+Then it displays the message that”nft bought” then refresh the page then click on the fetch nfts it will appear in the account3.
+12.you can see the transactions in the metamask wallet in account3 and account4.
+
